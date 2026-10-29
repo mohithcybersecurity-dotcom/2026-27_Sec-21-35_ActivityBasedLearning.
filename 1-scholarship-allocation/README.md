@@ -110,9 +110,7 @@ Rank  Name      Aggregate  Attend.  Income   Result
 Tie on aggregate between Chitra and Asha resolved using attendance/income/name rules.
 ```
 
-**Output screenshot** (replace with your own screenshot):
 
-![Output screenshot](screenshots/output.png)
 
 ## 10. Explanation Notes (for viva / demo)
 - Tuples compare item by item, so `(aggregate, attendance, -income)` handles all tie-break rules in one comparison. The minus sign makes a *lower* income rank higher.
